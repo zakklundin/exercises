@@ -1,0 +1,1 @@
+document.getElementById("knappen").onclick = function meddelande(){alert("Hello!")}
