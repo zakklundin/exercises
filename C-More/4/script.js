@@ -9,9 +9,7 @@ let person2 = {
 }
 
 function isSameUser(a, b){
-    if(a.email === b.email){
-        return true
-    } else {return false}
+    return a.email === b.email
 }
 
 console.log(isSameUser(person1, person2))
